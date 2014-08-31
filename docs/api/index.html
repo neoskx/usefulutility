@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    
+    
+    
+    
+    
+    <meta property="og:title" content=""/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content=""/>
+    
+    <meta property="og:url" content=""/>
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":true,"cleverLinks":true,"default":{"outputSourceFiles":true},"applicationName":"useful utility","disqus":"","googleAnalytics":"","openGraph":{"title":"","type":"website","image":"","site_name":"","url":""},"meta":{"title":"","description":"","keyword":""},"linenums":false};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">useful utility</a></h3>
+
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="u2">
+            <span class="title">
+                <a href="u2.html">u2</a>
+                
+                <span class="static">static</span>
+                
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li data-name="u2.sortedArrayUsingComparator"><a href="u2.html#sortedArrayUsingComparator">sortedArrayUsingComparator</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="index.html">Index</h1>
+        
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article class="readme"><h1>project-boilerplate</h1>
+<p>A professional project template for easily create a professional front-end project. This boilerplate includes basic process for you project, such as: build(grunt), documents(jsdoc), validation(jshint)</p>
+<h2>Features</h2>
+<ul>
+<li>Basic folder structure, includes sources, docs, test and release</li>
+<li>Configured <a href="http://gruntjs.com">Grunt</a> environment</li>
+<li>Configured .jshintrc, .jshintignore and .gitignore</li>
+<li>Configured <a href="http://qunitjs.com">QUnit</a> environment</li>
+<li>Configured <a href="http://usejsdoc.org">JSDoc</a> environment</li>
+<li>A document template with <a href="http://jekyllrb.com">jekyll</a></li>
+</ul>
+<h2>Get Started</h2>
+<p>Configure your environment:</p>
+<ol>
+<li>node.js</li>
+<li>java</li>
+</ol>
+<h4>Step</h4>
+<ol>
+<li>Checkout <a href="https://github.com/shaoke/project-boilerplate.git"><a href="https://github.com/shaoke/project-boilerplate.git">https://github.com/shaoke/project-boilerplate.git</a></a></li>
+<li>Run <code>npm install --save-dev</code></li>
+<li>Run <code>grunt</code>. This command will run following task: <code>clean:development</code>, <code>jshint</code>, <code>concat</code>, <code>less:development</code>, <code>copy:development</code>, <code>uglify:development</code>, <code>notify:build</code></li>
+<li>After command running successful, it generates build files to <code>build</code> folder</li>
+</ol>
+<p>You also can run following grunt tasks:</p>
+<ol>
+<li><code>grunt development</code>: this is used for when you develop your project. It will start a server and watch files change</li>
+<li><code>grunt release</code>: this is used to generate release version</li>
+<li><code>grunt api-doc</code>: this is used to generate API document</li>
+</ol>
+<h2>Folder Structure</h2>
+<pre><code>project-boilerplate/
+    |-- build/
+    |-- release/
+    |-- docs/
+        |-- api/
+    |-- log/
+    |-- jsdoc-template/
+            |-- jsdoc-docstrap/
+            |-- jsdoc-jaguar/
+    |-- src/
+    |-- test/
+    |-- Gruntfile.js
+    |-- LICENSE
+    |-- package.json
+    |-- project.config.js
+    |-- README.md</code></pre>
+<ul>
+<li><code>jsdoc-docstrap</code> and <code>jsdoc-jaguar</code> is a <a href="http://usejsdoc.org">jsdoc</a> template</li>
+<li><code>src</code> stores source code of this project</li>
+<li><code>test</code> stores all test files</li>
+<li><code>docs</code> stores all document about this project, includes api and developer documents </li>
+<li><code>jsdoc-template</code> stores jsdoc templates</li>
+<li><code>build</code> and <code>release</code> will be created when you running grunt command, stores build files and release files</li>
+</ul>
+<h2>Custom</h2>
+<h4>Modify <code>package.json</code></h4>
+<ul>
+<li>Modify <code>name</code> property to what you want, I suggest to modify to your project's name</li>
+<li>Modify <code>version</code> property to what you want, this can be used to name or comment your compiled js, css files.</li>
+<li>Modify <code>homepage</code> property. If you don't have a homepage, you can remove it</li>
+<li>Modify <code>author</code> property. If you don't want to show author, you can keep it empty</li>
+<li>Modify <code>license</code> property.</li>
+</ul>
+<h4>Modify <code>project.config.js</code></h4>
+<ul>
+<li>All the <code>__Required__</code> property need you to modify if your folder isn't same with original value</li>
+</ul>
+<h4>Modify <code>Gruntfile.js</code></h4>
+<p>You can add, modify or remove grunt tasks.</p>
+<h2>Contact</h2>
+<p>This application is developed by Shaoke Xu. You can use following way to contact me:</p>
+<p><strong>Website</strong>: <a href="http://shaoke.me"><a href="http://shaoke.me">http://shaoke.me</a></a></p>
+<p><strong>Email</strong>: <a href="shaokexu@gmail.com"> shaokexu@gmail.com </a></p>
+<h2>License</h2>
+<p><strong>project boilerplate</strong> is available under the MIT license. See the LICENSE file for more info.</p></article>
+    </section>
+
+
+
+
+
+
+        
+
+        <footer>
+            Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.2.2</a> on Sun Aug 31 2014 01:16:51 GMT+0800 (CST)
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

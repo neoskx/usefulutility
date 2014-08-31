@@ -1,0 +1,9 @@
+// http://www.jshint.com/docs/
+// .jshintrc based on https://github.com/jshint/jshint/blob/master/examples/.jshintrc
+{
+    "globals": {
+        "jQuery": false,
+        "window": false,
+        "QUnit" : false
+    }
+}
